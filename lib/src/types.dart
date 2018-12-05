@@ -1,0 +1,63 @@
+// Type
+const int TYPE_SINGLE_DECK = 1;
+const int TYPE_DOUBLE_DECK = 2;
+const int TYPE_BENDY = 3;
+const int TYPE_UNKNOWN = 4;
+
+const String TYPE_STRING_SINGLE_DECK = "SD";
+const String TYPE_STRING_DOUBLE_DECK = "DD";
+const String TYPE_STRING_BENDY = "BD";
+
+// Load
+const int LOAD_SEATS_AVAILABLE = 1;
+const int LOAD_STANDING_AVAILABLE = 2;
+const int LOAD_LIMITED_STANDING = 3;
+const int LOAD_UNKNOWN = 4;
+
+const String LOAD_STRING_SEATS_AVAILABLE = "SEA";
+const String LOAD_STRING_STANDING_AVAILABLE = "SDA";
+const String LOAD_STRING_LIMITED_STANDING = "LSD";
+
+// Feature
+const bool FEATURE_WHEELCHAIR_ACCESSIBLE = true;
+const String FEATURE_STRING_WHEELCHAIR_ACCESSIBLE = "WAB";
+
+// Operators
+const int OPERATOR_SBST = 1;
+const int OPERATOR_SMRT = 2;
+const int OPERATOR_TTS = 3;
+const int OPERATOR_GAS = 4;
+const int OPERATOR_UNKNOWN = 5;
+
+const String OPERATOR_STRING_SBST = "SBST";
+const String OPERATOR_STRING_SMRT = "SMRT";
+const String OPERATOR_STRING_TTS = "TTS";
+const String OPERATOR_STRING_GAS = "GAS";
+
+// Category
+//  Category of the SBS bus service:
+//  EXPRESS, FEEDER, INDUSTRIAL,
+//  TOWNLINK, TRUNK, 2 TIER FLAT FEE,
+//  FLAT FEE $1.10 (or $1.90, $3.50, $3.80)
+
+const int CATEGORY_EXPRESS = 1;
+const int CATEGORY_FEEDER = 2;
+const int CATEGORY_INDUSTRIAL = 3;
+const int CATEGORY_TOWNLINK = 4;
+const int CATEGORY_TRUNK = 5;
+const int CATEGORY_2_TIER_FLAT_FEE = 6;
+const int CATEGORY_FLAT_FEE_1_10 = 7;
+const int CATEGORY_FLAT_FEE_1_90 = 8;
+const int CATEGORY_FLAT_FEE_3_50 = 9;
+const int CATEGORY_FLAT_FEE_3_80 = 10;
+
+const String CATEGORY_STRING_EXPRESS = "EXPRESS";
+const String CATEGORY_STRING_FEEDER = "FEEDER";
+const String CATEGORY_STRING_INDUSTRIAL = "INDUSTRIAL";
+const String CATEGORY_STRING_TOWNLINK = "TOWNLINK";
+const String CATEGORY_STRING_TRUNK = "TRUNK";
+const String CATEGORY_STRING_2_TIER_FLAT_FEE = "2 TIER FLAT FEE";
+const String CATEGORY_STRING_FLAT_FEE_1_10 = "FLAT FEE \$1.10";
+const String CATEGORY_STRING_FLAT_FEE_1_90 = "FLAT FEE \$1.90";
+const String CATEGORY_STRING_FLAT_FEE_3_50 = "FLAT FEE \$3.50";
+const String CATEGORY_STRING_FLAT_FEE_3_80 = "FLAT FEE \$3.80";

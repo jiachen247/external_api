@@ -1,0 +1,13 @@
+name: external_api
+description: a dart wrapper for the lta busses
+version: 0.0.1
+author: jiachen
+
+environment:
+  sdk: '<4.0.0'
+
+dependencies:
+  path: ^1.4.1
+
+dev_dependencies:
+  test: any
